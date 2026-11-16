@@ -1,0 +1,9 @@
+[package]
+name = "solitaire-solver"
+version = "0.1.0"
+edition = "2024"
+description = "Klondike solitaire solver: winnability and minimum moves for a seeded deal"
+publish = false
+
+# No outside libraries yet. Each one added later gets a comment saying why.
+[dependencies]

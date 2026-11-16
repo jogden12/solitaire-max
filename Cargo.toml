@@ -1,0 +1,5 @@
+# The repo root is a Cargo "workspace": a container for one or more Rust projects.
+# Today there is one, the solver. Running `cargo test` here tests everything inside.
+[workspace]
+members = ["solver"]
+resolver = "3"
